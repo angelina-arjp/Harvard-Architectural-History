@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Harvard Property Storymap</title>
+  <script src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js"></script>
+  <link href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" rel="stylesheet" />
+  <link rel="stylesheet" href="static/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="site-title">Harvard Property Storymap</div>
+    <div class="site-subtitle">A starter template based on the Chicago Maroon project's structure.</div>
+  </header>
+
+  <div class="layout">
+    <aside class="sidebar">
+      <div class="controls">
+        <h2>Explore map</h2>
+        <label for="map-slider">Selected year: <span id="slider-year">2026</span></label>
+        <input id="map-slider" type="range" min="1636" max="2026" value="2026" />
+        <p class="small-note">Buildings shown in crimson are held by Harvard in the selected year. Black indicates former holdings that had already been sold by that year.</p>
+      </div>
+
+      <div id="chapters-container"></div>
+    </aside>
+
+    <main class="map-panel">
+      <div id="map"></div>
+      <div class="legend">
+        <div><span class="swatch current"></span> Current/active holding</div>
+        <div><span class="swatch former"></span> Former holding</div>
+        <div><span class="swatch route"></span> Optional overlay</div>
+      </div>
+    </main>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

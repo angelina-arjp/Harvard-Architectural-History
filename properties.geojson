@@ -1,0 +1,89 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "harvard-yard-1",
+        "name": "Sample Academic Building",
+        "address": "Massachusetts Hall, Cambridge, MA",
+        "year_start": 1720,
+        "year_end": 2026,
+        "currently_owned": true,
+        "currently_exists": true,
+        "quad_flag": true,
+        "lat": 42.3744,
+        "lon": -71.1169
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.1172,
+              42.37455
+            ],
+            [
+              -71.1167,
+              42.37455
+            ],
+            [
+              -71.1167,
+              42.37425
+            ],
+            [
+              -71.1172,
+              42.37425
+            ],
+            [
+              -71.1172,
+              42.37455
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "allston-parcel-1",
+        "name": "Sample Allston Parcel",
+        "address": "Sample parcel in Allston",
+        "year_start": 1998,
+        "year_end": 2015,
+        "currently_owned": false,
+        "currently_exists": true,
+        "quad_flag": false,
+        "lat": 42.3637,
+        "lon": -71.1274
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -71.1278,
+              42.36395
+            ],
+            [
+              -71.1272,
+              42.36395
+            ],
+            [
+              -71.1272,
+              42.36355
+            ],
+            [
+              -71.1278,
+              42.36355
+            ],
+            [
+              -71.1278,
+              42.36395
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}
